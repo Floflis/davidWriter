@@ -2,14 +2,16 @@
 <c2project>
     <name>Writer</name>
     <description></description>
-    <version>1.0.0.3</version>
+    <version>1.0.0.4</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
     <app-id></app-id>
     <unique-id>1srbjsvmq6fmg</unique-id>
     <saved-with-version>19200</saved-with-version>
-    <used-plugins />
+    <used-plugins>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+    </used-plugins>
     <used-behaviors />
     <used-effects />
     <configurations>
@@ -37,7 +39,11 @@
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
-    <object-folder />
+    <object-folder>
+        <object-type name="TextBox" sid="2303974086658624">
+            <plugin id="TextBox" />
+        </object-type>
+    </object-folder>
     <families />
     <layout-folder>
         <layout>Layout 1.xml</layout>
