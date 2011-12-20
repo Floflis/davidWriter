@@ -2,7 +2,7 @@
 <c2project>
     <name>Writer</name>
     <description></description>
-    <version>1.0.1.3</version>
+    <version>1.0.1.4</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -33,7 +33,7 @@
         <prop name="Clear background">Yes</prop>
         <prop name="Downscaling">Medium quality</prop>
         <prop name="Enable WebGL">On</prop>
-        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen in browser">Off</prop>
         <prop name="Fullscreen scaling">High quality</prop>
         <prop name="Loader style">Progress bar &amp; logo</prop>
         <prop name="Orientations">Any</prop>
