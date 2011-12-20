@@ -2,7 +2,7 @@
 <c2project>
     <name>Writer</name>
     <description></description>
-    <version>1.0.1.0</version>
+    <version>1.0.1.1</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -14,6 +14,7 @@
         <plugin author="Scirra" id="NodeWebkit" version="1">Node-Webkit</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
     </used-plugins>
     <used-behaviors />
@@ -63,6 +64,10 @@
         </object-type>
         <object-type name="NodeWebkit" sid="7554763128476863">
             <plugin id="NodeWebkit" />
+        </object-type>
+        <object-type name="TiledBackground" sid="888867567878246">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Daniell Mesquita\Desktop\bg.png" />
         </object-type>
     </object-folder>
     <families />
