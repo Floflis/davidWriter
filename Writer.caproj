@@ -2,7 +2,7 @@
 <c2project>
     <name>Writer</name>
     <description></description>
-    <version>1.0.0.5</version>
+    <version>1.0.0.6</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -10,6 +10,7 @@
     <unique-id>1srbjsvmq6fmg</unique-id>
     <saved-with-version>19200</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
     </used-plugins>
@@ -52,6 +53,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Mouse" sid="5542948027908583">
+            <plugin id="Mouse" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -60,7 +64,9 @@
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
-    <global-instances />
+    <global-instances>
+        <global-instance type="Mouse" uid="2" />
+    </global-instances>
     <sounds-folder />
     <music-folder />
     <files-folder>
