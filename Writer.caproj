@@ -2,12 +2,13 @@
 <c2project>
     <name>Writer</name>
     <description></description>
-    <version>1.0.0.1</version>
+    <version>1.0.0.2</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
     <app-id></app-id>
     <unique-id>1srbjsvmq6fmg</unique-id>
+    <saved-with-version>19200</saved-with-version>
     <used-plugins />
     <used-behaviors />
     <used-effects />
@@ -15,8 +16,8 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>854</width>
-        <height>480</height>
+        <width>960</width>
+        <height>520</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
