@@ -2,5 +2,20 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
-    <events />
+    <events>
+        <event-block sid="5243264335678235">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="3494250488815512" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">save</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="8" name="Show save dialog" sid="6862403712756244" type="NodeWebkit">
+                    <param id="0" name="Accept">&quot;.txt&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
