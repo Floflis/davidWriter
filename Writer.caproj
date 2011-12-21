@@ -2,7 +2,7 @@
 <c2project>
     <name>Writer</name>
     <description></description>
-    <version>1.0.0.7</version>
+    <version>1.0.0.8</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -11,6 +11,7 @@
     <saved-with-version>19200</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="NodeWebkit" version="1">Node-Webkit</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
@@ -60,6 +61,9 @@
         <object-type name="WebStorage" sid="6267795098590248">
             <plugin id="WebStorage" />
         </object-type>
+        <object-type name="NodeWebkit" sid="7554763128476863">
+            <plugin id="NodeWebkit" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -71,6 +75,7 @@
     <global-instances>
         <global-instance type="Mouse" uid="2" />
         <global-instance type="WebStorage" uid="3" />
+        <global-instance type="NodeWebkit" uid="4" />
     </global-instances>
     <sounds-folder />
     <music-folder />
