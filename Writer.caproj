@@ -2,7 +2,7 @@
 <c2project>
     <name>Writer</name>
     <description></description>
-    <version>1.0.0.6</version>
+    <version>1.0.0.7</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -13,6 +13,7 @@
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
     </used-plugins>
     <used-behaviors />
     <used-effects />
@@ -56,6 +57,9 @@
         <object-type name="Mouse" sid="5542948027908583">
             <plugin id="Mouse" />
         </object-type>
+        <object-type name="WebStorage" sid="6267795098590248">
+            <plugin id="WebStorage" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -66,6 +70,7 @@
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="2" />
+        <global-instance type="WebStorage" uid="3" />
     </global-instances>
     <sounds-folder />
     <music-folder />
