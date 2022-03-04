@@ -16,7 +16,7 @@
                     <param id="0" name="Accept">&quot;.txt&quot;</param>
                 </action>
                 <action id="22" name="Show save dialog" sid="464811686261401" type="Electron">
-                    <param id="0" name="Accept">&quot;.txt&quot;</param>
+                    <param id="0" name="Accept">&quot;text/*&quot;</param>
                 </action>
             </actions>
         </event-block>
