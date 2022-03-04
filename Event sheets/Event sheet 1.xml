@@ -18,6 +18,12 @@
                 <action id="22" name="Show save dialog" sid="464811686261401" type="Electron">
                     <param id="0" name="Accept">&quot;text/*&quot;</param>
                 </action>
+                <action disabled="1" id="0" name="Write" sid="539702600589455" type="Electron">
+                    <param id="0" name="Tag">&quot;&quot;</param>
+                    <param id="1" name="Path">Electron.ChosenPath</param>
+                    <param id="2" name="Data">AdvancedTextBox.Text</param>
+                    <param id="3" name="Encoding Mode">0</param>
+                </action>
             </actions>
         </event-block>
     </events>
