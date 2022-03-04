@@ -12,7 +12,10 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="8" name="Show save dialog" sid="6862403712756244" type="NodeWebkit">
+                <action disabled="1" id="8" name="Show save dialog" sid="6862403712756244" type="NodeWebkit">
+                    <param id="0" name="Accept">&quot;.txt&quot;</param>
+                </action>
+                <action id="22" name="Show save dialog" sid="464811686261401" type="Electron">
                     <param id="0" name="Accept">&quot;.txt&quot;</param>
                 </action>
             </actions>

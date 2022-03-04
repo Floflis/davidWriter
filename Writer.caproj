@@ -16,6 +16,7 @@
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
+        <plugin author="Armaldio" id="armaldio_electron" version="1">Electron</plugin>
     </used-plugins>
     <used-behaviors />
     <used-effects />
@@ -69,6 +70,9 @@
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\Daniell Mesquita\Desktop\bg.png" />
         </object-type>
+        <object-type name="Electron" sid="882435950599451">
+            <plugin id="armaldio_electron" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -81,6 +85,7 @@
         <global-instance type="Mouse" uid="2" />
         <global-instance type="WebStorage" uid="3" />
         <global-instance type="NodeWebkit" uid="4" />
+        <global-instance type="Electron" uid="6" />
     </global-instances>
     <sounds-folder />
     <music-folder />
