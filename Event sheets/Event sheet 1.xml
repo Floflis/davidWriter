@@ -24,6 +24,25 @@
                     <param id="2" name="Data">AdvancedTextBox.Text</param>
                     <param id="3" name="Encoding Mode">0</param>
                 </action>
+                <action disabled="1" id="0" name="Write" sid="967851412522989" type="Electron">
+                    <param id="0" name="Tag">&quot;&quot;</param>
+                    <param id="1" name="Path">Electron.ChosenPath</param>
+                    <param id="2" name="Data">&quot;&quot;</param>
+                    <param id="3" name="Encoding Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="640791888756845">
+            <conditions>
+                <condition id="10" name="On validate save dialog" sid="266508029577970" type="Electron" />
+            </conditions>
+            <actions>
+                <action id="0" name="Write" sid="918309415873485" type="Electron">
+                    <param id="0" name="Tag">&quot;&quot;</param>
+                    <param id="1" name="Path">Electron.ChosenPath</param>
+                    <param id="2" name="Data">AdvancedTextBox.Text</param>
+                    <param id="3" name="Encoding Mode">0</param>
+                </action>
             </actions>
         </event-block>
     </events>
