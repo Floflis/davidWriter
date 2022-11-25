@@ -1,2 +1,7 @@
 - Character count
 - Character limit advisor (Twitter, Twitter old, ETH, NFC chp)
+
+- Addons at UniStore (they add menu items and perform .sh actions such as posting your text)
+- Share buttons (Tweet)
+- add timestamp
+- tabs lib that can select multiple tabs to move and tab grouping (davidExplorer, Internet Cat, Eventlr)
