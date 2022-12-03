@@ -1,6 +1,9 @@
 - Character count
 - Character limit advisor (Twitter, Twitter old, ETH, NFC chp)
 
+- button to switch when writing md
+- works both on Desktop and Mobile
+
 - Addons at UniStore (they add menu items and perform .sh actions such as posting your text)
 - Share buttons (Tweet)
 - add timestamp
