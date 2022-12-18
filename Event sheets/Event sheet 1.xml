@@ -18,6 +18,12 @@
                 <action id="22" name="Show save dialog" sid="464811686261401" type="Electron">
                     <param id="0" name="Accept">&quot;text/*&quot;</param>
                 </action>
+                <action disabled="1" id="22" name="Show save dialog" sid="592635597276782" type="Electron">
+                    <param id="0" name="Accept">&quot;.txt&quot;</param>
+                </action>
+                <action disabled="1" id="22" name="Show save dialog" sid="522068655616432" type="Electron">
+                    <param id="0" name="Accept">&quot;&quot;</param>
+                </action>
                 <action disabled="1" id="0" name="Write" sid="539702600589455" type="Electron">
                     <param id="0" name="Tag">&quot;&quot;</param>
                     <param id="1" name="Path">Electron.ChosenPath</param>
@@ -37,13 +43,24 @@
                 <condition id="10" name="On validate save dialog" sid="266508029577970" type="Electron" />
             </conditions>
             <actions>
-                <action id="0" name="Write" sid="918309415873485" type="Electron">
-                    <param id="0" name="Tag">&quot;&quot;</param>
+                <action disabled="1" id="0" name="Write" sid="918309415873485" type="Electron">
+                    <param id="0" name="Tag">&quot;savefile&quot;</param>
                     <param id="1" name="Path">Electron.ChosenPath</param>
                     <param id="2" name="Data">AdvancedTextBox.Text</param>
                     <param id="3" name="Encoding Mode">0</param>
                 </action>
+                <action id="17" name="Execute Javascript" sid="931558710500127" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(&apos;child_process&apos;);exec(`cd scripts &amp;&amp; sh ./savefile.sh &quot;&quot;&quot; &amp; AdvancedTextBox.Text &amp; &quot;&quot;&quot;`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;</param>
+                </action>
             </actions>
+        </event-block>
+        <event-block disabled="1" sid="748248757863064">
+            <conditions>
+                <condition id="0" name="On write success" sid="338572102881989" type="Electron">
+                    <param id="0" name="Tag">&quot;savefile&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>

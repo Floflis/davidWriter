@@ -11,6 +11,7 @@
     <saved-with-version>24400</saved-with-version>
     <used-plugins>
         <plugin author="Pinco, Scirra" id="AdvTextBox" version="1.700000048">Advanced Text box</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="NodeWebkit" version="1">NW.js</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
@@ -77,6 +78,9 @@
         <object-type name="AdvancedTextBox" sid="233195290685601">
             <plugin id="AdvTextBox" />
         </object-type>
+        <object-type name="Browser" sid="999629623909276">
+            <plugin id="Browser" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -90,6 +94,7 @@
         <global-instance type="WebStorage" uid="3" />
         <global-instance type="NodeWebkit" uid="4" />
         <global-instance type="Electron" uid="6" />
+        <global-instance type="Browser" uid="0" />
     </global-instances>
     <sounds-folder />
     <music-folder />

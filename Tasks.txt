@@ -1,3 +1,5 @@
+- save using .sh instead of Electron
+
 - Character count
 - Character limit advisor (Twitter, Twitter old, ETH, NFC chp)
 
