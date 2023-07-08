@@ -12,3 +12,5 @@
 - tabs lib that can select multiple tabs to move and tab grouping (davidExplorer, Internet Cat, Eventlr)
 
 - after a "ctrl + z" error from my mom, through this she gave me this idea: non-linear text edition history. Even if you accidentaly overwrite a text and instead of noticing & ctrl + z you write after, you could still recover (this idea matches the philosophy of the Pijul VCS. Sound ctrl + z!)
+
+davidwriter will use .file.meta targz with file git + bios localvs time
